@@ -9,6 +9,14 @@
     <version>0.1</version>
     <name>stagecontroller</name>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Archasmiel Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/archasmiel/stagecontroller</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.9.2</junit.version>
